@@ -20,3 +20,8 @@
 
 # chmod +x install.sh 
 # ./install.sh
+
+
+follow the instructions
+hit enter to install btc
+hit y to delete write protected files (this is a fucntion of downloading, moving and removing files. I can address this at a later time)
