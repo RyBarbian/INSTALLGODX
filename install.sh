@@ -42,9 +42,8 @@ qmake
 rm Makefile
 git clone https://github.com/RyBarbian/GoDxoinMakefile.git
 cd GoDxoinMakefile
-mv Makefile ~/noixDoGB1.0/Makefile
-cd ..
-rm -r GoDxoinMakefile
+cp Makefile ~/noixDoGB1.0/Makefile
+cd ~/noixDoGB1.0
 make 
 cd ~/
 
