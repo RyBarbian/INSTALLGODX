@@ -41,6 +41,10 @@ cd ~/noixDoGB1.0
 qmake
 rm Makefile
 git clone https://github.com/RyBarbian/GoDxoinMakefile.git
+cd GoDxoinMakefile
+mv Makefile ~/noixDoGB1.0/Makefile
+cd ..
+rm -r GoDxoinMakefile
 make 
 cd ~/
 
@@ -50,10 +54,11 @@ cd ~/
 #In the $ .godxoin folder make a godxoin.conf file
 
 mkdir ~/.godxoin
-cd .godxoin
-touch godxoin.conf
+cd INSTALLGODX
+mv godxoin.conf ~/.godxoin/godxoin.conf
 cd ..
-cd ~/noixDoGB1.0/src/
-./godxoind --daemon
+cd noixDoGB1.0
+./GODXOIN-QT.PRO
+
 
 
