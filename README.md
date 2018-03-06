@@ -1,10 +1,10 @@
-INSTALLGODX
+# INSTALLGODX
 
 #Install for GoDxoin and godxoin.conf files
 
-#BE SURE to edit the rpcuser and rpcpassword fields BEFORE running install.sh
+# BE SURE to edit the rpcuser and rpcpassword fields BEFORE running install.sh
 
-#this is done by the following commands: (without the $ sign)
+#this is done by the following commands: 
 
 # cd INSTALLGODX 
 # sudo nano godxoin.conf
