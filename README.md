@@ -6,7 +6,8 @@ INSTALLGODX
 
 #this is done by the following commands:
 
-cd INSTALLGODX sudo nano godxoin.conf
+cd INSTALLGODX 
+sudo nano godxoin.conf
 
 #edit the aformentioned fields to your a username and password of your choice
 
