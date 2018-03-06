@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd
 
 sudo apt-add-repository ppa:bitcoin/bitcoin
 
