@@ -2,6 +2,8 @@
 
 #Install for GoDxoin and godxoin.conf files
 
+git clone https://github.com/RyBarbian/INSTALLGODX
+
 # BE SURE to edit the rpcuser and rpcpassword fields BEFORE running install.sh
 
 #this is done by the following commands: 
@@ -18,7 +20,6 @@
 
 #in the INSTALLGODX folder
 
-# chmod +x install.sh 
 # ./install.sh
 
 
