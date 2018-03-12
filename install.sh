@@ -45,7 +45,7 @@ cd
 #($ .godxoind --daemon) 
 
 cd ~/noixDoGB1.0
-qmake
+qmake "USE_QRCODE=1" "USE_UPNP=1" "USE_IPV6=1" GodCoin.pro
 git clone https://github.com/RyBarbian/GoDxoinMakefile.git
 cd GoDxoinMakefile
 cp Makefile ~/noixDoGB1.0/Makefile
