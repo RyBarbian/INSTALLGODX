@@ -46,7 +46,7 @@ cd
 #($ .godxoind --daemon) 
 
 cd ~/GoDxoinB1.1
-qmake "USE_QRCODE=1" "USE_UPNP=1" "USE_IPV6=1" GodCoin.pro
+qmake "USE_UPNP=1" "USE_IPV6=1" GodCoin.pro
 git clone https://github.com/RyBarbian/GoDxoinMakefile.git
 cd GoDxoinMakefile
 cp Makefile ~/GoDxoinB1.1/Makefile
