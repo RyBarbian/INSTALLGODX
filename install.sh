@@ -24,11 +24,12 @@ cd ~/
 
 #//Clone the GoDxoin Beta v 1.0.1 repo from Git
 
-git clone https://github.com/RyBarbian/INSTALLGODX1.git
+git clone https://github.com/RyBarbian/GoDxoinB1.1
+.git
 
 #Compile the GoDxoin Beta v 1.0.1 daemon (godxoind)
 
-cd ~/noixDoGB1.0/src/
+cd ~/GoDxoinB1.1/src/
 make clean -f makefile.unix
 make -f makefile.unix
 
@@ -44,14 +45,14 @@ cd
 # daemon will be compiled, and can be started from the command line
 #($ .godxoind --daemon) 
 
-cd ~/noixDoGB1.0
+cd ~/GoDxoinB1.1
 qmake "USE_QRCODE=1" "USE_UPNP=1" "USE_IPV6=1" GodCoin.pro
 git clone https://github.com/RyBarbian/GoDxoinMakefile.git
 cd GoDxoinMakefile
-cp Makefile ~/noixDoGB1.0/Makefile
-cd ~/noixDoGB1.0
+cp Makefile ~/GoDxoinB1.1/Makefile
+cd ~/GoDxoinB1.1
 make 
-cd noixDoGB1.0
+cd GoDxoinB1.1
 ./GODXOIN-QT.PRO
 
 #qt wallet will be compiled, and can be run by double clicking godxoin executable
