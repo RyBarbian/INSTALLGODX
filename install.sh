@@ -24,8 +24,7 @@ cd ~/
 
 #//Clone the GoDxoin Beta v 1.0.1 repo from Git
 
-git clone https://github.com/RyBarbian/GoDxoinB1.1.1
-.git
+git clone https://github.com/RyBarbian/GoDxoinB1.1.1.git
 
 #Compile the GoDxoin Beta v 1.0.1 daemon (godxoind)
 
