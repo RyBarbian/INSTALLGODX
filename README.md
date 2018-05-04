@@ -11,6 +11,13 @@
 # sudo nano godxoin.conf
 
 #edit the aformentioned fields to your a username and password of your choice
+Ex: rpcuser=<yourname> 
+rpcpassword=<yourpassword>
+  
+  To:
+  
+rpcuser=yourusername123#!
+rpcpassword=yourpassword123#!
 
 # ctrl=o to save 
 # ctrl=z to exit
