@@ -1,5 +1,13 @@
 # INSTALLGODX on fresh Ubuntu VM
 
+Open Terminal application
+
+#Upgrade and update ubuntu and git with the following commands in terminal:
+
+# sudo apt-get upgrade
+# sudo apt-get update
+# sudo apt install git
+
 #Install for GoDxoinB1.1.1 and godxoin.conf files
 
 # git clone https://github.com/RyBarbian/INSTALLGODX
