@@ -1,13 +1,12 @@
-# INSTALLGODX
+# INSTALLGODX on fresh Ubuntu VM
 
-#Install for GoDxoin and godxoin.conf files
-
-
-# BE SURE to edit the rpcuser and rpcpassword fields BEFORE running install.sh
-
-#this is done by the following commands: 
+#Install for GoDxoinB1.1.1 and godxoin.conf files
 
 # git clone https://github.com/RyBarbian/INSTALLGODX
+
+# BE SURE to edit the rpcuser and rpcpassword fields BEFORE running install.sh
+#this is done by the following commands: 
+
 # cd INSTALLGODX 
 # sudo nano godxoin.conf
 
@@ -29,12 +28,12 @@ hit y to delete write protected files (this is a fucntion of downloading, moving
 
 #To run GoDxoin Linux GUI
 # cd
-# cd GoDxoinB1.1
+# cd GoDxoinB1.1.1
 # ./GODXOIN-QT.PRO
 
 There will be a few errors including an attempted GODXOIN-QT.PRO lanch that results in failure to load blkindex
 This is normal
 
-Relaunch GODXOIN-QT.PRO
+Relaunch GODXOIN-QT.PRO  via ./GODXOIN-QT.PRO
 
 Be sure to encrypt your wallet after launch!!
